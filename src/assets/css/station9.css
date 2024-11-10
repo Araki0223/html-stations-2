@@ -1,0 +1,18 @@
+#animation{
+    animation-delay: 0s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-name: animation;
+}
+
+@keyframes animation {
+    0%{
+        opacity: 0;
+    }
+    /* 50%{
+        opacity: 1;
+    } */
+    100%{
+        opacity: 1;
+    }
+}
